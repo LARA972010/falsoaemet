@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <title>FALSO AEMET v2.0</title>
+    </head>
+        <body style="background-image: url(IMAGENP.jpg);"> 
+        <h1 style="text-align: center;">FALSO AEMET 2.0</h1>
+        <p style="text-align: center;">Deber&aacute;s seleccionar una y te enseñar&aacute; la p&aacute;gina de AEMET con el respectivo valor seleccionado.</p>
+            <form style="text-align: center;"method="GET" action="http://www.aemet.es/es/buscador">
+                Escoja Ciudad/Municipio:<br><br>
+                <input type="radio" name="str" id="mostoles" value="Mostoles"><label for="mostoles">M&oacute;stoles</label><br>
+                <input type="radio" name="str" id="Fuenlabrada" value="Fuenlabrada"><label for="Fuenlabrada">Fuenlabrada</label><br>
+                <input type="radio" name="str" id="Coslada" value="Coslada"><label for="Coslada">Coslada</label><br>
+                
+                
+            <input type="submit" value="ENVIAR">
+            </form>
+        </body>
+</html> 
